@@ -3,11 +3,9 @@
 NHL Bivariate Analysis
 
 Project Description: 
-*************************************************************************************************************************************
 
 The following analysis seeks to explore the features in relation to the traget variable failed_playoff_flag (flags marking teams who 
 didn't make the playoffs for that particular season).
-
 */
 /************************************************************************************************************************************/
 /*Set bivariate and multicollinearity analysis environment*/
