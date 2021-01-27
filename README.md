@@ -18,13 +18,22 @@ endorsement deals, fair book value of the organization, greater economic activit
 
 ### Logistic Regression Using Predicted Season Outcomes to Predict Playoff Outcomes
 
-Model Feature:
+Model Features:
 
-1) **Predicted Above the Mean Adjusted Wins** (predAboveMeanAdjWins)
+1) **goalsPerGame** - Average goals per game
+2) **powerPlayPercentage** - Average goals per power play
+3) **penaltyKillPercentage** - Average scoreless penalty kills
+4) **shotsPerGame** - Average shots per game
+5) **shotsAllowed** - Average shots against
+6) **winLeadFirstPer** Percentage of games won when teams scored frist
+7) **winLeadSecondPer** Percentage of games won when teams lead the second period
+8) **winOutshotByOpp** Percentage of games won when teams was outshot by opponent
+9) **D1** - 
+10) **D2** - 
 
 Model Target:
 
-1) **Failed Seasons By Not Making Playoffs** (failed_playoff_flag)
+1) **Failed Seasons By Not Making Playoffs** - failed_playoff_flag
 
 ![](ReadMe_Images/ROC_AUC.png)
 
@@ -54,10 +63,11 @@ If teams want to make the playoffs they need to increase their aboveMeanAdjWins.
 
 ## Technologies 
 
-1) Python 
-2) R
-3) Jupyter Notebook
-4) Anaconda Environment
+1) SAS 
+2) Python
+3) SAS Studio
+4) Jupyter Notebook
+5) Anaconda Environment
 
 ## Order of Analysis
 
