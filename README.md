@@ -12,7 +12,7 @@ endorsement deals, fair book value of the organization, greater economic activit
 ## Methods Used
 
 1) Descriptive Statistics - used for preliminary data exploration.
-2) Machine Learning - in the process of predicting season and playoff outcomes, greater transparency around the features were developed for a greater understadning of the statistical economics driving teams into the playoffs.
+2) Machine Learning - in the process of predicting playoff outcomes, greater transparency around the features were developed for a greater understadning of the statistical economics driving teams into the playoffs.
 
 ## Results 
 
