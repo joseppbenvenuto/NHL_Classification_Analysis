@@ -28,12 +28,12 @@ Model Features:
 6) **winLeadFirstPer** Percentage of games won when teams scored frist
 7) **winLeadSecondPer** Percentage of games won when teams lead the second period
 8) **winOutshotByOpp** Percentage of games won when teams was outshot by opponent
-9) **D1** - 
-10) **D2** - 
+9) **D1** -  winOutShootOpp > 0.483 and winOutShotByOpp > 0.421
+10) **D2** - winOutShootOpp <= 0.483 and goalsPerGame <= 2.805 and goalsAgainstPerGame > 2.646
 
 Model Target:
 
-1) **Failed Seasons By Not Making Playoffs** - failed_playoff_flag
+1) **failed_playoff_flag** -  Failed Seasons By Not Making Playoffs
 
 ![](ReadMe_Images/ROC_AUC.png)
 
@@ -47,19 +47,6 @@ Model Target:
 * **Recall:** 0.87
 * **F1:** 0.89
 * **Kolmogorov–Smirnov Measure (KS):** 43% at the 4th decile, 1.1 times greater than a random model
-
-### A/B Testing on Predictor Features
-
-If teams want to make the playoffs they need to increase their aboveMeanAdjWins. To increase their aboveMeanAdjWins, teams should take into consideration the following:
-
-**Note** - all p-values are significant as **p < 0.05**. 
-
-1) **shootingPctg** -                strive to achieve **10.84%** shooting percentage and stay within range **10.3%, 10.48%, 10.67%**.<br>
-2) **savePctg**                      strive to achieve a **90.21%** save percentage and stay within range **90.02%, 90.21%, 90.4%**.<br>
-3) **savesPerGame**                  strive to achieve **26.12** saves per game and stay within range **25.82, 26.12, 26.42**.<br>
-4) **failedShotsPerGame**            strive to achieve **27.17** shots per game and stay within range **26.91, 27.17, 27.43**.<br>
-5) **winScoreFirstGreater61_low**    strive to win **82%** of games they score first and stay within range **75%, 82%, 88%**.<br>
-6) **aboveMeanAdjWins**              strive to achieve **4.3** shots per game and stay within range **3.62, 4.3, 4.98**.<br>
 
 ## Technologies 
 
