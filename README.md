@@ -16,8 +16,6 @@ endorsement deals, fair book value of the organization, greater economic activit
 
 ## Results 
 
-### Logistic Regression Using Predicted Season Outcomes to Predict Playoff Outcomes
-
 Model Features:
 
 1) **goalsPerGame** - Average goals per game
@@ -34,6 +32,8 @@ Model Features:
 Model Target:
 
 1) **failed_playoff_flag** -  Failed Seasons By Not Making Playoffs
+
+Model Results on Test Data:
 
 ![](ReadMe_Images/ROC_AUC.png)
 
