@@ -7,7 +7,6 @@ Project Description:
 The following analysis seeks to explore the features in the data set and remove any with an inflation factor score greater than 2.5.
 
 Once the final set of features are selected, playoff outcomes will be predicted using logistic regression.
-
 */
 /************************************************************************************************************************************/
 /*Set model environment*/
