@@ -35,8 +35,6 @@ Model Target:
 
 Model Results on Test Data:
 
-![](ReadMe_Images/ROC_AUC.png)
-
 * **Concordance:** 0.94
 * **AUC:** 0.94
 
