@@ -24,8 +24,8 @@ Model Features:
 4) **shotsPerGame** - Average shots per game
 5) **shotsAllowed** - Average shots against
 6) **winLeadFirstPer** Percentage of games won when teams scored frist
-7) **winLeadSecondPer** Percentage of games won when teams lead the second period
-8) **winOutshotByOpp** Percentage of games won when teams was outshot by opponent
+7) **winLeadSecondPer** - Percentage of games won when teams lead the second period
+8) **winOutshotByOpp** - Percentage of games won when teams was outshot by opponent
 9) **D1** -  winOutShootOpp > 0.483 and winOutShotByOpp > 0.421
 10) **D2** - winOutShootOpp <= 0.483 and goalsPerGame <= 2.805 and goalsAgainstPerGame > 2.646
 
@@ -35,24 +35,30 @@ Model Target:
 
 Model Results on Test Data:
 
-* **Concordance:** 0.94
-* **AUC:** 0.94
-
-![](ReadMe_Images/CAP_LIFT.png)
+![](ReadMe_Images/Cmatrix.png)
 
 * **Accuracy:** 0.86
 * **Percision:** 0.91
 * **Recall:** 0.87
 * **F1:** 0.89
+
+![](ReadMe_Images/Cap.png)
+![](ReadMe_Images/Cap_Table.png)
+
 * **Kolmogorov–Smirnov Measure (KS):** 43% at the 4th decile, 1.1 times greater than a random model
 
 Model Feature Coefficients:
 
-Shooting Percentage (shootingPctg): 3.99
-Save Percentage (savePctg): 3.92
-Shots Per Game (failedShotsPerGame): 1.36
-Percentage of Games Won when Team Scores First (winScoreFirstGreater61_low): -1.74
-Save Per Game (savesPerGame): -1.40
+1) **goalsPerGame** - 
+2) **powerPlayPercentage** - 
+3) **penaltyKillPercentage** - 
+4) **shotsPerGame** - 
+5) **shotsAllowed** - A
+6) **winLeadFirstPer** 
+7) **winLeadSecondPer** 
+8) **winOutshotByOpp** 
+9) **D1** - 
+10) **D2** - 
 
 ## Technologies 
 
