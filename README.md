@@ -35,28 +35,15 @@ Model Target:
 
 Model Results on Test Data:
 
-* **Accuracy:** 0.86
-* **Percision:** 0.91
-* **Recall:** 0.87
-* **F1:** 0.89
+* **Accuracy:** 0.88
+* **Percision:** 0.83
+* **Recall:** 0.84
+* **F1:** 0.84
 
 ![](ReadMe_Images/Cap.png)
 ![](ReadMe_Images/Cap_Table.png)
 
-* **Kolmogorov–Smirnov Measure (KS):** 43% at the 4th decile, 1.1 times greater than a random model
-
-Model Feature Coefficients:
-
-1) **goalsPerGame** - 
-2) **powerPlayPercentage** - 
-3) **penaltyKillPercentage** - 
-4) **shotsPerGame** - 
-5) **shotsAllowed** - A
-6) **winLeadFirstPer** 
-7) **winLeadSecondPer** 
-8) **winOutshotByOpp** 
-9) **D1** - 
-10) **D2** - 
+* **Kolmogorov–Smirnov Measure (KS):** 48% at the 4th decile, a cummulative percantage 2.2 (84% (model) - 40% (random model) times greater than a random model.
 
 ## Technologies 
 
