@@ -3,7 +3,6 @@
 NHL Univariate Analysis
 
 Project Description: 
-*************************************************************************************************************************************
 
 The following analysis seeks to explore the features of an NHL data set recording season stats for individual teams from 1983 - 2020.
 
@@ -14,9 +13,7 @@ does work with strategy and achieving successful campaigns in mind.
 
 Achieving successful campaigns can potentially lead to increased revenue for all stakeholders through ticket sales, salary increases, 
 endorsement deals, fair book value of the organization, greater economic activity for the represented city, etc.  
-
 */
-
 /************************************************************************************************************************************/
 /*Set univariate analysis environment*/
 /************************************************************************************************************************************/
