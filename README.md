@@ -48,6 +48,14 @@ Model Target:
 * **F1:** 0.89
 * **Kolmogorov–Smirnov Measure (KS):** 43% at the 4th decile, 1.1 times greater than a random model
 
+Model Feature Coefficients:
+
+Shooting Percentage (shootingPctg): 3.99
+Save Percentage (savePctg): 3.92
+Shots Per Game (failedShotsPerGame): 1.36
+Percentage of Games Won when Team Scores First (winScoreFirstGreater61_low): -1.74
+Save Per Game (savesPerGame): -1.40
+
 ## Technologies 
 
 1) SAS 
