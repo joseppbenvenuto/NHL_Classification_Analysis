@@ -3,7 +3,6 @@
 NHL Bivariate Analysis
 
 Project Description: 
-*************************************************************************************************************************************
 
 The following analysis seeks to explore the features in the data set and remove any with an inflation factor score greater than 2.5.
 
