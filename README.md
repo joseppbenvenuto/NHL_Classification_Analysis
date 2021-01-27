@@ -55,25 +55,23 @@ Model Results on Test Data:
 
 ## Order of Analysis
 
-1) **NHL_1983_2020_Multiple_Linear_Regression_EDA.ipynb**
-2) **NHL_1983_2020_Multiple_Linear_Regression.ipynb**
-3) **NHL_1983_2020_Logistic_Regression_EDA.ipynb**
-4) **NHL_1983_2020_Logistic_Regression.ipynb**
-5) **NHL_1983_2020_Feature_A-B_Tests.ipynb**
+1) **NHL_Univariate.sas** - All univariate pdf files
+2) **NHL_Bivariate.sas** - All bivariare pdf files
+3) **NHL_Logistic_Regression.sas** - Train and test pdf files
 
 ## Directory Files
 
 1) **NHL_API.ipynb** - NHL data base API.
-2) **Preprocessing_Functions.ipynb** - Preprocessing functions.
-3) **Regression_Metrics_Function.ipynb** - Regression evaluation functions.
-4) **AUC_CAP_Functions.ipynb** - Classification evaluation functions.
-5) **Stats_Functions.ipynb** - Descriptive and inferential stats functions.
-6) **CHAID_Tree_Plots** - CHAID tree algorithm used to explore data for derived variables.
-7) **NHL_1983_2020_Multiple_Linear_Regression_EDA.ipynb** - Multiple linear regression EDA, feature enginearing, and feature selection.
-8) **NHL_1983_2020_Multiple_Linear_Regression.ipynb** - Multiple linear regression model building, feature selection, preprocessing, evaluation, and interpretation.
-9) **NHL_Season_Wins_Linear_Regression_Model.pkl** - Saved multiple linear regression model.
-10) **NHL_1983_2020_Logistic_Regression_EDA.ipynb** - Logistic regression EDA, feature enginearing, and feature selection.
-11) **NHL_1983_2020_Logistic_Regression.ipynb** - Logistic regression model building, feature selection, preprocessing, evaluation, and interpretation.
-12) **NHL_Playoffs_Logistic_Regression_Model.pkl** - Saved Logistic regression model.
-13) **NHL_1983_2020_Feature_A-B_Tests.ipynb** - A/B testing on predictor features between successful and unsuccessful playoff outcomes.
+2) **Macros.sas** - Macro functions.
+3) **NHL_Univariate.sas** - Univariate analysis in SAS.
+4) **NHL_Numeric_Univariate.pdf** - Numeric univariate analysis pdf.
+5) **NHL_Categorical_Frequencies.pdf** - Categorical univariate analysis pdf.
+6) **NHL_Bivariate.sas** - Bivariate analysis in SAS.
+7) **NHL_Numeric_Bivariate.pdf** -  Numeric bivariate analysis pdf.
+8) **NHL_Categorical_Bivariate.pdf** -  Categorical bivariate analysis pdf.
+9) **NHL_Logistic_Regression.sas** - Logistic regression analysis in SAS.
+10) **NHL_Train_Model.pdf** - Logistic regression train results.
+11) **NHL_Test_Model.pdf** -  Logistic regression test results.
+12) **Decision_Tree_Plots** - Chi-square automatic interaction detector (CHAID) tree algorithm used to explore data for derived variables.
+
 
