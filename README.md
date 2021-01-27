@@ -35,8 +35,6 @@ Model Target:
 
 Model Results on Test Data:
 
-![](ReadMe_Images/Cmatrix.png)
-
 * **Accuracy:** 0.86
 * **Percision:** 0.91
 * **Recall:** 0.87
