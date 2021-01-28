@@ -43,7 +43,7 @@ Model Results on Test Data:
 ![](ReadMe_Images/Cap.png)
 ![](ReadMe_Images/Cap_Table.png)
 
-* **Kolmogorov–Smirnov Measure (KS):** 48% at the 4th decile, a cummulative percantage 2.2 (84% (model) - 40% (random model) times greater than a random model.
+* **Kolmogorov–Smirnov Measure (KS):** 48% at the 4th decile, a cumulative percantage 2.2 (84% (model) - 40% (random model) times greater than a random model.
 
 ## Technologies 
 
