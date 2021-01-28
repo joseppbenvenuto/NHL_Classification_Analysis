@@ -19,15 +19,11 @@ endorsement deals, fair book value of the organization, greater economic activit
 Model Features:
 
 1) **goalsPerGame** - Average goals per game
-2) **powerPlayPercentage** - Average goals per power play
-3) **penaltyKillPercentage** - Average scoreless penalty kills
-4) **shotsPerGame** - Average shots per game
-5) **shotsAllowed** - Average shots against
-6) **winLeadFirstPer** Percentage of games won when teams scored frist
-7) **winLeadSecondPer** - Percentage of games won when teams lead the second period
-8) **winOutshotByOpp** - Percentage of games won when teams was outshot by opponent
-9) **D1** -  winOutShootOpp > 0.483 and winOutShotByOpp > 0.421
-10) **D2** - winOutShootOpp <= 0.483 and goalsPerGame <= 2.805 and goalsAgainstPerGame > 2.646
+2) **penaltyKillPercentage** - Average successful penalty kills (no goals against)
+3) **shotsAllowed** - Average shots against
+4) **winOutshotByOpp** - Percentage of games won when teams was outshot by opponent
+5) **D1** -  winOutShootOpp > 0.483 and winOutShotByOpp > 0.421
+6) **D2** - winOutShootOpp <= 0.483 and goalsPerGame <= 2.805 and goalsAgainstPerGame > 2.646
 
 Model Target:
 
