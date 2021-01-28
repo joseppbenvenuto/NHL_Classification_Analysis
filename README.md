@@ -61,7 +61,7 @@ Model Results on Test Data:
 2) **Macros.sas** - Macro functions.
 3) **NHL_Univariate.sas** - Univariate analysis in SAS.
 4) **NHL_Numeric_Univariate.pdf** - Numeric univariate analysis pdf.
-5) **NHL_Categorical_Frequencies.pdf** - Categorical univariate analysis pdf.
+5) **NHL_Categorical_Univariate.pdf** - Categorical univariate analysis pdf.
 6) **NHL_Bivariate.sas** - Bivariate analysis in SAS.
 7) **NHL_Numeric_Bivariate.pdf** -  Numeric bivariate analysis pdf.
 8) **NHL_Categorical_Bivariate.pdf** -  Categorical bivariate analysis pdf.
