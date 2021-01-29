@@ -2,9 +2,11 @@
 
 ## Project Description
 
-The analysis used logistic regression to predict the playoff outcomes of teams that don't make the playoffs. 
+The analysis explored NHL team season data (url:https://www.kevinsidwar.com/iot/2017/7/1/the-undocumented-nhl-stats-api) from 1983 - 2020 to predict playoff outcomes.
 
-By understanding the economics of what holds teams back from making playoffs, teams can gain more transparency and perspective on what does work with strategy and achieving successful campaigns in mind.
+The analysis used logistic regression to predict the playoff outcomes of teams that didn't make the playoffs. 
+
+By understanding the economics of what holds teams back from making playoffs, teams can gain more transparency and perspective on what works with strategy and achieving successful campaigns in mind.
 
 Achieving successful campaigns can potentially lead to increased revenue for all stakeholders through ticket sales, salary increases, 
 endorsement deals, fair book value of the organization, greater economic activity for the represented city, etc.  
