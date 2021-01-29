@@ -16,7 +16,7 @@ endorsement deals, fair book value of the organization, greater economic activit
 
 ## Results 
 
-Model Features:
+**Model Features**:
 
 1) **goalsPerGame** - Average goals per game
 2) **penaltyKillPercentage** - Average successful penalty kills (no goals against)
@@ -25,11 +25,11 @@ Model Features:
 5) **D1** -  winOutShootOpp > 0.483 and winOutShotByOpp > 0.421
 6) **D2** - winOutShootOpp <= 0.483 and goalsPerGame <= 2.805 and goalsAgainstPerGame > 2.646
 
-Model Target:
+**Model Target**:
 
 1) **failed_playoff_flag** -  Failed Seasons By Not Making Playoffs
 
-Model Results on Test Data:
+**Model Results on Test Data**:
 
 * **Accuracy:** 0.88
 * **Percision:** 0.83
