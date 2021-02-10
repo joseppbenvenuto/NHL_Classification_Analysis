@@ -1,4 +1,4 @@
-# NHL_Classification_Analysis
+# NHL Classification Analysis
 
 ## Project Description
 
