@@ -117,8 +117,8 @@ ods pdf close;
 /************************************************************************************************************************************/
 /*Test model*/
 /************************************************************************************************************************************/
-/*The results appear to be acceptable with an F1 of 0.84*/
-/*KS of 48% at the 40th percentile*/
+/*The results appear to be acceptable with an F1 of 0.84 and a KS of 48% at the 40th percentile, however, the results also appear to be 
+/*better than the train model. Because the train model results appear worse, there is doubt in the power of this model.*/
 ods pdf 
 file = '/folders/myshortcuts/SAS_Work/Project_Josepp/NHL_Test_Model.pdf'
 style = dove;
